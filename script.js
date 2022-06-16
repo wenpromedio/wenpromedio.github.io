@@ -48,25 +48,25 @@ const mostrar = () => {
     if(nCO != 0 && cO != 0){
         let prom = (nCO/cO).toFixed(2);     
         if(prom <= 100 && prom > 90){
-            img.innerHTML = "<img src='https://i.ytimg.com/vi/3EN7osSwfYk/hqdefault.jpg' height='250px'>";
+            img.innerHTML = "<img src='img/1.jpg' height='250px'>";
         }else if(prom <= 90 && prom > 80){
-            img.innerHTML = "<img src='https://static.wikia.nocookie.net/memes-pedia/images/4/47/Mr_incre%C3%ADble_normal_2.0.png/revision/latest/scale-to-width-down/1000?cb=20220607004914&path-prefix=es' height='250px'>";
+            img.innerHTML = "<img src='img/2.jpg' height='250px'>";
         }else if(prom <= 80 && prom > 70){
-            img.innerHTML = "<img src='https://static.wikia.nocookie.net/memes-pedia/images/b/b1/Fase_2.png/revision/latest?cb=20220211170601&path-prefix=es' height='250px'>";
+            img.innerHTML = "<img src='img/3.jpg' height='250px'>";
         }else if(prom <= 70 && prom > 60){
-            img.innerHTML = "<img src='https://static.wikia.nocookie.net/memes-pedia/images/6/6e/AAAAAAAAAAAAAAAA_2.0.png/revision/latest/scale-to-width-down/1000?cb=20220607004951&path-prefix=es' height='250px'>";
+            img.innerHTML = "<img src='img/4.jpg' height='250px'>";
         }else if(prom <= 60 && prom > 50){
-            img.innerHTML = "<img src='https://static.wikia.nocookie.net/memes-pedia/images/e/ed/Mr_increible_selene_delgado_2.0.png/revision/latest/scale-to-width-down/1000?cb=20220607005029&path-prefix=es' height='250px'>";
+            img.innerHTML = "<img src='img/5.jpg' height='250px'>";
         }else if(prom <= 50 && prom > 40){
-            img.innerHTML = "<img src='https://static.wikia.nocookie.net/memes-pedia/images/e/e2/Mr_increible_nivel_5_Remastered.png/revision/latest/scale-to-width-down/1000?cb=20220607005106&path-prefix=es' height='250px'>";
+            img.innerHTML = "<img src='img/6.jpg' height='250px'>";
         }else if(prom <= 40 && prom > 30){
-            img.innerHTML = "<img src='https://static.wikia.nocookie.net/memes-pedia/images/5/5c/Mr_increible_deformado_2.0.png/revision/latest/scale-to-width-down/1000?cb=20220607005143&path-prefix=es' height='250px'>";
+            img.innerHTML = "<img src='img/7.jpg' height='250px'>";
         }else if(prom <= 30 && prom > 20){
-            img.innerHTML = "<img src='https://static.wikia.nocookie.net/memes-pedia/images/d/de/Mr_incre%C3%ADble_a%C3%BAn_m%C3%A1s_saturado_2.0.png/revision/latest/scale-to-width-down/1000?cb=20220607005251&path-prefix=es' height='250px'>";
+            img.innerHTML = "<img src='img/8.jpg' height='250px'>";
         }else if(prom <= 20 && prom > 10){
-            img.innerHTML = "<img src='https://static.wikia.nocookie.net/memes-pedia/images/e/e2/Mr_incre%C3%ADble_des4ngr4do_2.0.png/revision/latest/scale-to-width-down/1000?cb=20220607005332&path-prefix=es' height='250px'>";
+            img.innerHTML = "<img src='img/9.jpg' height='250px'>";
         }else if(prom <= 10 && prom >= 0){
-            img.innerHTML = "<img src='https://static.wikia.nocookie.net/memes-pedia/images/c/ce/Mr_incre%C3%ADble_calaber%C3%A9rico_2.0.png/revision/latest/scale-to-width-down/1000?cb=20220607005502&path-prefix=es' height='250px'>";
+            img.innerHTML = "<img src='img/10.jpg' height='250px'>";
         }
         promedio.innerHTML = prom;
     }else{
