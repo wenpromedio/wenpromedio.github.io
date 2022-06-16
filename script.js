@@ -48,11 +48,11 @@ const mostrar = () => {
     if(nCO != 0 && cO != 0){
         let prom = (nCO/cO).toFixed(2);
         if(prom <= 100 && prom > 80){
-            img.innerHTML = "<img src='https://i.pinimg.com/550x/c4/c8/ba/c4c8ba4e12058cc9ad707fa322f5d9cf.jpg' height='50px'>";
+            img.innerHTML = "<img src='https://i.pinimg.com/550x/c4/c8/ba/c4c8ba4e12058cc9ad707fa322f5d9cf.jpg' height='250px'>";
         }else if(prom <= 80 && prom > 60){
-            img.innerHTML = "<img src='https://i.ytimg.com/vi/kQyOOZcDM1A/hqdefault.jpg' height='50px'>";
+            img.innerHTML = "<img src='https://i.ytimg.com/vi/kQyOOZcDM1A/hqdefault.jpg' height='250px'>";
         }else if(prom <= 60 && prom > 30){
-            img.innerHTML = "<img src='https://static.wikia.nocookie.net/memes-pedia/images/8/85/MR_incre%C3%ADble_no_agaradado.png/revision/latest/scale-to-width-down/200?cb=20220205165413&path-prefix=es' height='50px'>";
+            img.innerHTML = "<img src='https://static.wikia.nocookie.net/memes-pedia/images/8/85/MR_incre%C3%ADble_no_agaradado.png/revision/latest/scale-to-width-down/200?cb=20220205165413&path-prefix=es' height='250px'>";
         }else if(prom <= 30 && prom >= 0){
             img.innerHTML = "<img src='https://i.ytimg.com/vi/p_VIaw1vCrU/maxresdefault.jpg' height='250px'>";
         }
